@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "body": "keep calm my name is Anton",
+      "author": "my name is ANTON",
+      "image": "https://i.ytimg.com/vi/H3E5P5uFvQk/mqdefault.jpg",
+      "id": 3
+    },
+    {
+      "body": "але",
+      "author": "Я сабынина мама",
+      "image": "https://i.ytimg.com/vi/olq3o8L0Zwg/hqdefault.jpg",
+      "id": 4
+    },
+    {
+      "body": "a tall handsome man in a dusty black coat",
+      "author": "My name is Tom Shelby",
+      "image": "https://preview.redd.it/ih8qvv1v5la41.jpg?auto=webp&s=29688ce80fc3a42f2bf5e00f485af10a9e963139",
+      "id": 5
+    }
+  ]
+}
