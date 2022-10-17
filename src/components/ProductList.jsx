@@ -3,6 +3,7 @@ import { postContext } from "../postContext";
 import { useNavigate } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import Like from './Like'
 
 const ProductList = () => {
   const { getPosts, posts, deletePost, updatePost } =
@@ -43,9 +44,7 @@ const ProductList = () => {
             <Button  style={{marginRight: "10px"}}variant="danger" onClick={() => deletePost(item.id)}>
               delete
             </Button>
-            <h5 style={{marginTop:"20px"}}onClick={()=> setLike(!like)}>
-            click: {like ? '🙊' : '🙉'}
-        </h5>
+            <Like />
           </Card.Body>
         </Card>
       ))}
